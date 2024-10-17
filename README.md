@@ -44,3 +44,8 @@ Matriz de confusión 0 TAR 1 FRA 2 PEL
 ![image](https://github.com/user-attachments/assets/c185f658-f014-4e13-bc4d-5cc1399c2389)
 
 
+Autores:
+
+Yeremay García Déniz
+
+Adonai Hernandez Bolaños

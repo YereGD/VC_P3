@@ -2,7 +2,7 @@
 
 ## Tarea 1
 
-En esta tarea se ha utilizado el diametro de las monedas para identificarlas, como referencia se emplea la moneda de 1 euro, para la obtención e identificación de los bordes se ha aplicado un filtro gaussiano a la imagen convertida a escala de grises, posteriormente se ha restado a la imagen las misma imagen con un filtro de Canny aplicado para resaltar los bordes y a está finalmente se la aplicado un umbralizado. Finalmente, se ha detectado los bordes externos y se han eliminados los bordes detectados que estan contenidos dentros de otros bordes. Cabe destacar que a las imágenes se le ha aplicado un reescalado para mayor comodidad.
+En esta tarea se ha utilizado el diametro de las monedas para identificarlas, como referencia se emplea la moneda de 1 euro, para la obtención e identificación de los bordes se ha aplicado un filtro gaussiano a la imagen convertida a escala de grises, posteriormente se ha restado a la imagen las misma imagen con un filtro de Canny aplicado para resaltar los bordes y a está finalmente se la aplicado un umbralizado. Finalmente, se ha detectado los bordes externos y se han eliminados los bordes detectados que estan contenidos dentros de otros bordes. Cabe destacar que a las imágenes se le ha aplicado un reescalado para mayor comodidad. Tras haber obtenido los contornos y extraido la información, en esta caso el diametro, se ha comparado el ratio (diametro en pixeles / diametro real) de la moneada de 1 euro que se selecciona con los demás obtenidos para averiguar cuales son las monedas en cuestión, el ratio más cercano obtenido significa que es la moneda.
 
 Monedas_1
 
@@ -25,4 +25,4 @@ Resize(0.5,0.5)
 
 ## Tarea 2
 
-En esta tarea se ha utilizados como características geométricas la presencia de negro en las muestras y circularidad.  
+En esta tarea se han utilizado como características geométricas la presencia del negro en las muestras a través del color promedio en la muestra y su circularidad. Para la detección de los bordes de las muestras se ha convertido la imagen a escala de grises, aplicado un filtro gaussiano, un umbralizado, se han detectados los contornos externos y se han descartados los que estan contenidos dentros de otros bordes. Tras haber obtenido la información, clasificamos las muestras dependiendo de la presencia del negro u oscuridad, significa que es TAR, su circularidad nos indica si es PELLET y en el caso de que no corresponder con ninguno de los anteriores se clasifica como FRA. En estos caso hemos establecido ciertos valores como un mínimo de circularidad (17) y de presencia de negro (120) para la clasificación.

@@ -2,14 +2,13 @@
 
 ## Tarea 1
 
-
+En esta tarea se ha utilizado se emplea el diametro de las monedas para identificarlas, como referencia se emplea la moneda de 1 euro, para la obtención e identificación de los bordes se ha aplicado un filtro gaussiano a la imagen convertida a escala de grises, posteriormente se ha restado a la imagen las misma imagen con un filtro de Canny aplicado para resaltar los bordes y a está finalmente se la aplicado un umbralizado. Finalmente, se ha detectado los bordes externos y se han eliminados los bordes detectados que estan contenidos dentros de otros bordes. Cabe destacar que a las imágenes se le aplica un reescalado para mayor comodidad.
 
 Monedas_1
 
 Resize (0.3,0.3)
 
 ![image](https://github.com/user-attachments/assets/2ed6b804-4ad8-41db-907b-0bb492133274)
-
 
 Monedas_2
 

@@ -25,4 +25,22 @@ Resize(0.5,0.5)
 
 ## Tarea 2
 
-En esta tarea se han utilizado como características geométricas la presencia del negro en las muestras a través del color promedio en la muestra y su circularidad. Para la detección de los bordes de las muestras se ha convertido la imagen a escala de grises, aplicado un filtro gaussiano, un umbralizado, se han detectados los contornos externos y se han descartados los que estan contenidos dentros de otros bordes. Tras haber obtenido la información, clasificamos las muestras dependiendo de la presencia del negro u oscuridad, significa que es TAR, su circularidad nos indica si es PELLET y en el caso de que no corresponder con ninguno de los anteriores se clasifica como FRA. En estos caso hemos establecido ciertos valores como un mínimo de circularidad (17) y de presencia de negro (120) para la clasificación.
+En esta tarea se han utilizado como características geométricas la presencia del negro en las muestras a través del color promedio en la muestra y su circularidad. Para la detección de los bordes de las muestras se ha convertido la imagen a escala de grises, aplicado un filtro gaussiano, un umbralizado, se han detectados los contornos externos y se han descartados los que estan contenidos dentros de otros bordes. Tras haber obtenido la información, clasificamos las muestras dependiendo de la presencia del negro u oscuridad, significa que es TAR, su circularidad nos indica si es PELLET y en el caso de que no corresponder con ninguno de los anteriores se clasifica como FRA (Fragmentos). En estos caso hemos establecido ciertos valores como un mínimo de circularidad (17) y de presencia de negro (120) para la clasificación.
+
+Fragmentos
+
+![image](https://github.com/user-attachments/assets/9d506309-a281-469c-ae03-12c38441a8fc)
+
+Tar
+
+![image](https://github.com/user-attachments/assets/6d513f16-18dd-4fb2-bc9d-127ff64358ed)
+
+Pellets
+
+![image](https://github.com/user-attachments/assets/3b1021e3-6f95-46d6-ab52-e08d1561bc85)
+
+Matriz de confusión 0 TAR 1 FRA 2 PEL
+
+![image](https://github.com/user-attachments/assets/c185f658-f014-4e13-bc4d-5cc1399c2389)
+
+

@@ -24,3 +24,5 @@ Resize(0.5,0.5)
 
 
 ## Tarea 2
+
+En esta tarea se ha utilizados como características geométricas la presencia de negro en las muestras y circularidad.  
